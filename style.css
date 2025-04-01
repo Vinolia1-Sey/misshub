@@ -1,0 +1,317 @@
+.logo{
+    margin-left: 100px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subhero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.showhero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.glow{
+    font-weight: 50px;
+    font-size: 50px;
+    text-align: center;
+    background-color: orange;
+    color: whitesmoke;
+    font-family:Copperplate, Papyrus, fantasy ;
+    text-shadow: 2px 3px  black;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-right: 0cm;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    background-color: black;
+}
+.list{
+    margin-left: 100px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;   
+
+}
+li a:hover{
+    
+    background-color: darkorange;
+
+}
+a{
+    color: dimgray;
+    text-decoration: none;
+    font-size: larger;
+    hover
+}
+.home, .showroom{
+   margin-right: 30px;
+} 
+input[type=text], select{
+    width: 70%;
+    padding: 2px 10px;
+   /* margin:  10px 50px; */
+    display: inline-block;
+    border: 3px solid darkorange;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.hero{
+    background-color: black;
+}
+.ppstext{
+    background-color: black;
+}
+.WELCOME{
+    color: darkorange;
+    margin-top: 0cm;
+    align: left;
+    border-style: inset;
+    border-color: darkorange;
+}
+p{
+    color: white;
+}
+.title{
+    color: white;
+    margin-bottom: 0cm;
+    letter-spacing: 5px;
+}
+.img{
+    display: flex;
+}
+
+input[type=email], select{
+    width: 70%;
+    padding: 10px 5px;
+    margin:  10px 50px;
+    display: inline-block;
+    border: 3px solid darkorange;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    margin: 5px 10px 0px 100px;
+    height: 30px;
+    width: 30%;
+    background-color: darkorange;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .smallimages{
+    display: flex;
+    margin-top: 40px;
+  }
+  #convenience, #delivery, #time{
+    color: darkorange;
+  }
+
+  .pps{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darkorange;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: none;
+    width:100%;
+}
+.fade{
+    animation: fadeEffect 1s;
+}
+.subhero{
+    background-color: black;
+}
+.a-title{
+    margin-left: 50px;
+    color: darkorange;
+    max-width: 50%; 
+    font-weight: 50px;
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.about{
+    white-space: wrap;
+    line-height: 25px;
+    font-size: large;
+    
+}
+.r-title{
+    color: darkorange;
+    max-width: 50%; 
+    font-weight: 50px;
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+} 
+
+.r1{
+    z-index: 1;
+    border: 2px solid black;
+    height: 150px;
+    margin: px;
+  }
+  .r2 {
+    z-index: 2;
+    border: 2px solid black;
+    height: 150px;
+    margin: px;
+  }
+  .r3{
+    z-index: 3;
+    border: 2px solid black;
+    height: 150px;
+    margin: px;
+    
+  }
+  .r4{
+    z-index: 3;
+    border: 2px solid black;
+    height: 100px;
+    margin: px;
+    
+  }
+  
+.reviews{
+    max-width: 50%;
+    border: 10px solid transparent;
+padding: 15px; 
+}
+.video{
+    background-color: black;
+}
+.vid{
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+}  
+.vid:hover{
+    opacity: 1.0;
+}
+
+.o-text{
+    background-color: darkorange;
+    overflow: auto; 
+    width: 0;
+    height: 30%;
+    transition: .5s ease;
+}
+  .showhero{
+    background-color: black;
+  }
+  .o-text {
+    white-space: wrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: auto;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+.our-p{
+    background-color: black;
+}
+.our-products{
+    color: darkorange;
+    max-width: 50%;
+    font-weight: 50px;
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.visit{
+    color: darkorange;
+    max-width: 50%;
+    font-weight: 50px;
+    font-size: 30px;
+    font-family: serif;
+}
+.visit a{
+    color: darkorange;
+}
+.visit a:hover{
+    color:blanchedalmond
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkorange; 
+} 
+.f{
+    color: white;
+}
+.loc{
+    display: flex;
+}
+.location{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.f-text{
+    font-size: large;
+   letter-spacing: 2px;
+   line-height: 25px;
+   color: white;
+}
+
+sub{
+    font-size: larger;
+    font-family: Brush Script MT, cursive;
+}
+.r-footer{
+    display: flex;
+}
+.s-t{
+    margin-top: 0px;
+    line-height: 23px;
+    font-family: sans-serif;
+}
+.lady{
+    margin-left: 80px;
+}
+.social-media{
+    margin-left: 30px;
+}
+.visit-us{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.handles{
+    display: flex;
+    margin-left: 20px;
+    margin-top:  0px;
+}
+.handle2{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.payment{
+    margin-left: 20px;
+}
+.you{
+    margin-top: 0px;
+}

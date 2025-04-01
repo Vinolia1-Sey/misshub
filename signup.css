@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+}
+.top2{
+    margin-top: 5px;
+}
+.glow{
+    margin-top: auto;
+   font-weight: 50px;
+   font-size: 49px;
+   text-align: center;
+   background-color: orange;
+   color: whitesmoke;
+   font-family:Copperplate, Papyrus, fantasy ;
+   text-shadow: 2px 3px  black;
+   letter-spacing: 3px;
+   
+} 
+nav{
+    display: flex;
+    background-color: black;
+}
+.logo{
+    margin-left: 100px;
+}
+.list{
+    
+    margin-left: 100px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;   
+
+}
+.list a:hover{
+    
+    background-color: darkorange;
+
+}
+.list a{
+    color: dimgray;
+    text-decoration: none;
+    font-size: larger;
+    hover
+}
+.home, .showroom{
+   margin-right: 30px;
+}
+.title{
+    background-color: black;
+}
+h2{
+    
+    text-align: center;
+    color: whitesmoke;
+    font-family:Copperplate, Papyrus, fantasy ;
+    text-shadow: 2px 3px  black;
+    letter-spacing: 3px;
+    
+}
+  label{
+    color: grey;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+.form{
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(44, 43, 43);
+    margin-left: 75px;
+}
+form{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+input[type=text], input[type=password], select {
+
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid darkorange;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid darkorange;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  .sub{
+    text-align: center;
+    margin-top: 5px;
+  }
+  .submit{
+    padding: 8px 100px;
+    border-radius: 30px;
+    background-color: darkorange;
+    color: white;
+  }
+   .submit a{
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+  }
+  .submit a:hover{
+    cursor: pointer;
+    
+  } 

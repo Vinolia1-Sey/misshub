@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MISS HUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body alink="blue" link="green" vlink="dimgray">
+    <div style="height: 100vh; border: 1px solid white;">
+        <header style="border: 1px solid white; width: 100%; height: 20%; padding: 10px 0px;">
+            <div style="border: 5px solid white; height: 50%; margin-bottom: 10px;">
+                <h1 class="glow">THE MISS HUB
+                     <img class="cart"  height="50" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\cart.jpg" alt="cart">
+                   </h1>
+        
+            </div>
+    
+            <nav style="border: 5px solid white; height: 30% ;">
+             <div>
+                 <a target="_blank" href="C:\Users\Scom\OneDrive\Desktop\misshUB\signup.html">
+                    <img class="personal" style="height:40px; width: 50px; border-radius: 50px;" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\personal.jpeg" alt="personal" height="10%">
+                  </a>  
+                <img class="logo" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\pp logo.jpg" alt="logo" style="height:43px; width: 50px;">
+                </div>
+                       
+                <div class="list">
+                <ul>
+                 <li class="home ">
+                  <a class="home" href="C:\Users\Scom\OneDrive\Desktop\misshUB\project\index.html" target="_blank"><b>HOME</b></a>
+                    
+                 </li>
+
+                  <li class="showroom">
+                    <a href="C:\Users\Scom\OneDrive\Desktop\misshUB\showroom.html" target="_blank"> <b>SHOWROOM</b></a> 
+                  </li>
+                
+               </ul>
+              </div>
+    
+            </nav>
+        </header>
+
+        <section class="hero" style="border: 1px solid black; width: 100%; height: 70%; margin-top: 20px;">
+            <div class="ppstext" style="border: 5px solid black; border-radius: 10px; height: 85%; width: 40%; " >
+
+                <h3 class="title">WELCOME TO</h3>
+             <h2 class="WELCOME">THE MISS HUB</h2>
+             <p>Shop on campus with a complete peace of mind. Looking for quality electronics, laptops, phones and accessories at the best price?
+                Visit THE MISS HUB,your one-stop campus shop for all things tech. Affordability meets quality</p>
+
+             <div class="img">
+             <img class="items" height="150px"  src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\items.png" alt="items">
+              <div class="form">
+                <form>
+                   <input type="email" placeholder="login with your email" required /><br>
+                   <input type="submit" placeholder="submit" required />
+                </form>
+              </div>
+             </div>
+
+             <div class="smallimages">
+                <img class="delivery"  height="50px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\delivery.jpg" alt="delivery">
+              <p id="delivery"><i>fast delivery!!</i></p>
+              <img class="convenience"  height="50px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\convenient.jpeg" alt="convenience">
+              <p id="convenience"><i>buy at your convenience</i></p>
+              <img class="time"  height="70px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\time.png" alt="time">
+              <p id="time"><i>10am-4pm each day</i></p>
+             </div>
+     
+            </div>
+    
+            <div style="border: 5px solid black;  border-radius: 10px; height: 85%; width: 40%;">
+            <div>
+            <img class="carousel-slide fade" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\project pictures.jpg" height="407px" width="100%" alt="1">
+            <img class="carousel-slide fade" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\pp2.jpg" height="407px" width="100%" alt="2">
+            <img class="carousel-slide fade" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\pp3.jpg" height="407px" width="100%" alt="3">
+            <img class="carousel-slide fade" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\pp4.jpg" height="407px" width="100%" alt="4">
+            <img class="carousel-slide fade" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\pp5.jpg" height="407px" width="100%" alt="5">
+            
+           </div>
+         <script>
+            let slideIndex = 0;
+            showSlides(slideIndex);
+    
+            function changeSlide(n) {
+                showSlides(slideIndex += n);
+            }
+    
+            function showSlides(n) {
+                let slides = document.getElementsByClassName("carousel-slide");
+                
+                if (n >= slides.length) { slideIndex = 0; }
+                if (n < 0) { slideIndex = slides.length - 1; }
+    
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                
+                slides[slideIndex].style.display = "block";
+            }
+    
+            // Auto-play the carousel every 3 seconds
+            setInterval(() => { changeSlide(1); }, 3000);
+         </script>
+    
+            </div>
+        </section>
+    </div>
+    
+    <section class="subhero" style="border: 1px solid black; width: 100%; height: 500px; margin-top: 20px;">
+        <div style="border: 5px solid black;  border-radius: 50px 50px 50px 50px; height: 90%; width: 30%; " >
+            <h1 class="a-title"> ABOUT </h1>
+            <p class="about"> 
+                THE MISS HUB is your campus go-to shop for all things tech. From high-quality laptops, phones and accessories to essential electrical appliances, we provide the best gadgets at affordable prices. Whether you are a student, a professional or tech enthusiast, THE MISS HUB ensures you stay connected and equipped with the latest technology.
+                experience top-notch products, excleent customer service and unbeatable convenience only at THE MISS HUB! 
+              </p>
+            </p>
+
+        </div>
+
+        <div style="border: 5px solid black;  border-radius: 5px 50px 30px 15px; height: 85%; width: 20%; " >
+            <h1 class="r-title"> CUSTOMER REVIEW</h1>
+
+        </div>
+
+        <div class="reviews" style="border: 5px solid black;  border-radius: 10px; height: 85%; width: 30%;">
+            <img class="r1"  height="100" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\review1.jpg" alt="customer review">
+           <img class="r2"  height="100" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\review2.jpg" alt="customer review">
+           <img class="r3"  height="100" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\review3.jpg" alt="customer review">
+          <img class="r4"  height="100" width="100%" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\review4.jpg" alt="customer review">
+
+        </div>
+    </section>
+
+    <section class="video" style="border: 1px solid black; width: 100%; height: 500px; margin-top: 20px;">
+        <div style="border: 5px solid black;  border-radius: 10px; height: 90%; width: 100%; " >
+            
+            <a href="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\Order on Jumia, enjoy safe & contactless delivery.mp4" >
+              <video class="vid" autoplay loop muted playsinline width="100%" height="100%">
+                <source src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\Order on Jumia, enjoy safe & contactless delivery.mp4" type="video/mp4">
+              </video>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="showhero" style="border: 1px solid black; width: 100%; height: 500px; margin-top: 20px;">
+        <div style="border: 5px solid black;  border-radius: 10px; height: 85%; width: 40%; " >
+            <img class="show" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\showroom-overlay.jpg" height="100%" width="100%" alt="showroom">
+        </div>
+
+        <!-- <div class="o-text">
+            <h1>visit our showroom for more</h1>
+        </div> -->
+
+        <div class="our-p" style="border: 5px solid black;  border-radius: 50px 5px 15px 30px; height: 85%; width: 40%;">
+            <h1 class="our-products">OUR PRODUCTS</h1>
+            <p class="visit">
+                <a href="C:\Users\Scom\OneDrive\Desktop\misshUB\showroom.html">Visit our showroom for more </a> 
+            </p>
+        </div>
+    </section>
+
+    <section class="footer" style="border: 1px solid darkorange; width: 100%; height: 150px; margin-top: 20px;">
+        <div style="border: 5px solid white;  border-radius: 50px 10px 50px 10px; height: 90%; width: 40%; ">
+
+           <div class="loc">
+            <img class="location" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\location.jpeg" height="20px" width="20px" alt="showroom">
+            <p class="f-text">locate us at KNH, UCC and Kumasi for all your retail and bulk purchases <br>
+            THE MISS HUB <sub>where quality meets affordability</sub></p>
+           </div> 
+        </div>
+
+        <div class="r-footer" style="border: 5px solid darkorange;  border-radius: 10px; height: 90%; width: 40%; ">
+
+            <div class="s-text">
+                <p class="s-t">CONTACT <img class="phone"  height="20" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\phone.jpeg" alt="phone"><br>
+                    0552315104 <br>
+                    0244828386 <br>
+                    0555087312
+                </p>  
+            </div>
+
+            <div class="social-media">
+                <p class="visit-us"> VISIT US </p>
+                 <div class="handles"> 
+                  <div class="handle1">
+                    <a href="http://wa.me/233552315104">
+                    <img class="whatsapp"  height="25px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\whatsapp.jpg" alt="whatsapp">
+                    </a>
+                    <a href="https://snapchat.com/t/xp0fG7et">
+                        <img class="snapchat"  height="25px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\snapchat.png" alt="snapchat">
+                    </a>
+                    <br>
+                    <a href="https://www.instagram.com/seyvinoliaakua?igsh=amJmazlxNm8zMmh0&utm_source=qr">
+                      <img class="ig"  height="25px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\ig.jpg" alt="ig"><br>
+                    </a>
+                 </div>
+
+                 <div class="handle2">
+                    <a href="https://x.com/vinoliasey?s=11">
+                        <img class="x"  height="25px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\x.jpg" alt="x">
+                        </a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/vinolia-sey-15824a308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                      <img class="likedin"  height="35px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\linkedIn.webp" alt="linkedin"><br>
+                    </a><br>
+                   </div>
+                  </div>
+                </p>
+            </div>
+
+                <div class="payment"> 
+                    <p class="you">YOU CAN PAY VIA</p>
+                    <img class="momo"  height="70px" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\momo.jpeg" alt="momo">
+
+                </div> 
+
+
+                <div class="lady">
+                    <img class="shopping" src="C:\Users\Scom\OneDrive\Desktop\css trial\project\project pictures\ladywalkingwithabag.jpeg" height="130px" width="100px" alt="shopping">
+                </div> 
+
+           
+        </div>
+    </section>
+
+
+</body>
+</html>
